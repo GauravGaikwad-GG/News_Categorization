@@ -18,7 +18,7 @@ input_text = st.text_input("Enter your News Content: ", "")
 # Prediction Button
 if st.button("Classify"):
     if input_text:
-        prediction = model.predict([input_text])[0]
+        prediction = model_pipeline.predict([input_text])[0]
         st.write(f"Predicted Category: {prediction}")
     else:
         st.write("Please Enter some text to classify.")
