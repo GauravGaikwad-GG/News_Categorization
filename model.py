@@ -8,7 +8,7 @@ import joblib
 
 
 # Loading your dataset
-data_path = r"dataset/BBC_News_Train.csv"
+data_path = r"C:\Users\gaikw\Downloads\BBC_News_Train.csv"
 
 data = pd.read_csv(data_path)
 # text/news articles
